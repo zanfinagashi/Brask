@@ -7,4 +7,3 @@ There are to main folder: app and public.
 The app folder contains the core files of the project: models, controllers, views, config file, libraries and functions.
 The public folder contains the index file which functions as a dispatcher and the assets folder with css , js, and image files.
 
-<img src="test.jpg" />
