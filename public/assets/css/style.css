@@ -1,0 +1,680 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+body { 
+background-color: #1f272a !important;
+font-family: 'Open Sans' ,  sans-serif !important; 
+
+}
+
+/* =======Login Page======= */
+.container{
+	margin-top: 200px;
+	margin-bottom: 41px;
+}
+.container1{
+	margin-top: 200px;
+	margin-bottom: 41px;
+}
+.image_profile{
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 100px;	
+}
+ .form-group{
+ 	width: 280px;
+ 	height:50px ;
+ 	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+    background-color: #1f272a;
+
+ }
+
+
+.form-control {
+   background-color: #1f272a;
+   
+}
+
+.form-group input[ type="password"]{
+	background:url(../img/pas.png) 250px center  no-repeat;
+	border:1px solid #394147;
+}
+.form-group input[ type="email"]{
+	 background: url(../img/ursern.png) 250px center no-repeat;
+	 border:1px solid #394147;
+ 
+}
+ .form-group1{
+
+ 	width: 280px;
+ 	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+    background-color: #1f272a;
+  
+ }
+ .form-control1{
+    display: block;
+ 	width: 100%;
+	height: 34px;
+	border-radius: 4px;
+	
+	margin-top: 20px;
+	line-height: 1.42857143;
+	background-color: #1f272a;
+	border:1px solid #394147;
+	padding: 6px 12px;
+	
+   
+}
+
+.button {
+    display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+	width: 119px;
+	height: 37px;
+	background-color: #1f272a;
+	border-radius: 80px;
+	color: #27b89a ;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	
+}
+.button1 {
+
+	display: block;
+ 	margin-left: 804px;
+    width: 119px;
+	background-color: #1f272a;
+	color:#27b89a ;
+	border: none;
+	margin-top: -451px;
+}
+
+.help {
+  color: #80a988;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  background-color: #1f272a;
+  font-family: 'Open Sans', sans-serif;
+
+}
+/* ======= End Login Page======= */
+.photo {	
+	width:85px;
+	height: 84px;
+	border-radius: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #1f272a;
+	margin-bottom: 41px;
+
+
+}
+
+
+.name-title {
+	
+	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 22px;
+	margin-top: 30px;
+	
+}
+h2 {
+    font-size: 16px;
+}
+p {
+	font-size: 16px;
+}
+
+.form-control {
+   background-color: #1f272a;
+   
+}
+.form-relative {
+	position: relative;
+	width: 220px;
+	margin: 0 auto;
+
+}
+.form-relative input {
+	width: 170px;
+	border: none;
+	outline: none;
+	box-shadow:none !important;
+}
+.form-relative .change {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+.folder {
+	width: 19%;
+	float: left;
+	margin-right:10px;
+	border-right: 1px  solid #394147;
+	text-align: center;
+	display: block;
+
+
+}
+.folder a{
+	display: block;
+	text-align: center #394147;
+}
+
+.folder-holder {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	margin-bottom: 16px;
+	margin-top: 43px;
+}
+.last-folder{
+    border-right: none;
+
+}
+
+.butonat {
+	text-align: center;
+
+
+}
+.butonat button {
+   margin-right: 52px;
+   margin-left: 25px;
+    width: 163px;
+	height: 37px;
+	background-color: #272f33;
+	border-radius: 80px;
+	color:#fff ;
+	margin-top: 20px;
+	border:1px solid #fff;
+	-webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+
+	
+}
+.butonat button:hover{
+	background-color: #294c62;
+}
+
+/*  ------ All projects page ------ */
+.smaller_image{
+    width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #1f272a;
+	overflow: hidden;
+	float: left;
+}
+.name-title.title-project {
+	color: #394147;
+    display: inline-block;
+    margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+.profile_title{
+	width:200px;
+	margin:0 auto;
+}
+
+.folder {
+	width: 19%;
+	float: left;
+	margin-right:10px;
+	border-right: 1px  solid #394147;
+	text-align: center;
+	display: block;
+	margin-bottom:40px;
+
+}
+.folder a{
+	display: block;
+	text-align: center #394147;
+}
+
+.folder-holder {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	margin-bottom: 16px;
+	margin-top: 43px;
+	border-bottom:1px  solid #394147;
+}
+.last-folder{
+    border-right: none;
+
+}
+
+.pager li a {
+
+}
+.back   {
+	float: left;
+}
+.active  {
+	text-align: center;
+	color: #41a2e3 !important;
+	
+}
+
+.load-more  {
+	text-align: center;
+	display: block;
+	color: #363e43;
+	text-decoration: none;
+	
+}
+
+ul.pager li a {
+background-color: transparent; 
+border: none; 
+border-radius: 0px; 
+color: #394147;
+font-weight: 700;
+}
+
+ul.pager li a:hover{
+	background-color: transparent;
+	color: #41a2e3;
+}
+
+
+.form_controler{
+    width: 300px;
+    height:35px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #1f272a;
+
+ }
+
+ .form_controler_li{
+ 	width: 300px;
+    height:35px ;
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #1f272a;
+    border:1px solid #394147;
+ }
+ .containner{
+   background-color: #1f272a;
+   
+}
+
+.form_controler {
+ background:url(../img/Untitled-1.png) 250px center  no-repeat;
+ border:1px solid #394147;
+}
+/*....Sign Up......*/
+
+.account {
+	color: #394147;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+.createaccount {
+	text-align: left;
+	float: right;
+    
+
+}
+
+
+.cancel {
+	text-align: left;
+	float: left;
+    
+
+}
+
+.pagger {
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+	font-size: 14px;
+	margin:0 auto;
+	width: 24%;
+}
+
+ul.pagger li a {
+ background-color: transparent; 
+ border: none; 
+ border-radius: 0px; 
+ color: #27b89a;
+ font-weight: 700;
+ 
+}
+
+
+ul.pagger li a:hover{
+	background-color: transparent;
+	color: #607e69;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #1f272a;
+	color: #60778c;
+	width: 100%;
+    height: 34px;
+ 	background-color:  #1f272a;
+ 	margin-top: 20px;
+ 	padding: 5px 12px;
+ 	text-decoration: none;
+ 	font-size: 12px;
+ 	border: 1px solid #394147;
+}
+.fileUpload input.upload  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+    cursor: pointer;
+	opacity: 0;
+}
+.fileUpload:hover {
+	background: none !important;
+}
+#uploadFile {
+	background-color:  #1f272a;
+	border:0 solid #394147;
+	float:left;
+	width: 140px;
+	margin-top:-4px;
+}
+		
+.row {  
+	margin-top: 28px;
+}
+.form-control1:focus {
+	  border-color: #60778c;
+	  outline: 0;
+  
+  }
+  .upload_span {
+  	float: right;
+  	width: 100px;
+  	line-height: 24px;
+
+  }
+  .splash{
+  	float: left;
+  	line-height: 21px !important;
+  	color: #394147;
+  	font-size: 18px;
+  }
+
+.form-control1::-moz-placeholder {
+  color: #394147;
+  opacity: 1;
+}
+.form-control1:-ms-input-placeholder {
+  color: #394147;
+}
+.form-control1::-webkit-input-placeholder {
+  color: #394147;
+}
+ #uploadFile::-moz-placeholder {
+  color: #394147;
+  opacity: 1;
+}
+#uploadFile:-ms-input-placeholder {
+  color: #394147;
+}
+ #uploadFile::-webkit-input-placeholder {
+  color: #394147;
+}
+
+/*.............................Drop Down ..................*/
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color:#343c42;
+}
+
+.dropdown{
+	width: 300px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.container input{
+	
+	width: 100%;
+	height: 39px;
+	padding: 5px 12px;	
+	outline: none;
+	border:  1px solid #272f33;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 600;
+
+}
+
+
+.selected{
+	background: #272f33 !important;
+	color: #353d42;
+	border: none;
+    opacity: 0.7;
+}
+
+.selected_project{
+
+	background:  url(../img/arrow1.png) 280px center no-repeat;
+	color: #394147;
+	border-color: #394147;
+
+}
+
+.selected:hover{
+	background: #394147 !important;
+	color: #252d31;
+	border: none;    
+}
+
+.tools {
+	display: none;
+	float: right; 
+	margin-top: -30px;
+	margin-right: 270px;
+}
+
+.edit_delete{
+	margin-right: 365px;
+}
+.go_to_project{
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #363e43;
+}
+.go_to_project:hover{
+	text-decoration: none;
+	color: #4c5e6e;
+	font-style: italic;
+}
+.edit{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.delete{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.add_members{
+	display: none;
+	background: #394147 !important;
+	width: 300px !important;
+	color: #252d31;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;    
+}
+
+.add_new{
+	display: none;
+	background:#1f272a;
+	color: #394147;
+	border-color: #394147;
+	width: 300px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.upload_files{
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	height: 100px;
+}
+
+.uploadFile{
+	display: block;	
+	height: 120px !important;
+	opacity: 0;
+}
+
+#uploadDiv{
+	display: none;
+	background-color: #272f33;
+	background-image: url(../img/upload_more.png) 30px center no-repeat;
+	color: #394147;
+	height: 120px !important;
+	opacity: 0.7;
+	border-radius: 5px;
+	text-align: center;	
+}
+/*......................................HEADER....................................*/
+.page-header{
+	border-bottom: #1f272a;
+}
+
+.header-content{
+	float: right;
+	margin-right: 108px;
+}
+
+.logged-user{
+	float: right;
+	margin-top: 12px;
+}
+
+.profile-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.logged-user-dropdown{
+	cursor: pointer;
+	font-size: 15px;
+	width: 160px;
+	padding-left: 15px;
+	color:#ffffff;
+	background: url(../img/arrow.png) 115px center no-repeat;
+}
+
+.select-logged-user-dropdown-options{
+	margin-left: 5px;
+	width: 120px;
+	text-align: right;
+	margin-bottom: -15px;
+
+}
+
+.logged-user-dropdown-options {	
+	margin-left: -18px;
+	font-size: 12px;
+}
+
+.logged-user-dropdown-options a{	
+	text-decoration: none;
+	color: #394147;
+}
+
+.logged-user-dropdown-options a:hover{	
+	text-decoration: none;
+	color: #506374;
+}
+.line{
+	color: #1f272a;
+}
+
+.line:hover{
+	color: #27b89a;
+}
+
+.my-profile-line:hover{
+	color: #fff;
+}
+/*.................................END OF HEADER.........................*/
+
+/*.............................Save and Cancel buttons..................*/
+.sign-up-button{
+	display: block;
+ 	margin-left: 804px;   	
+	margin-top: -451px;
+	width: 100px;
+
+}
+.finalize{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	width:310px;
+	text-align: left;
+	outline: none !important;
+}
+
+.button-submit{
+	font-weight: 700;
+	background-color: #1f272a;
+	border:none;
+	color: #27b89a;
+}
+.button-submit:hover{
+	text-decoration: none;
+	color: #90bf98;
+	font-weight: 500;
+}
+.left-align{
+	float: left;
+}
+
+.right-align{
+	float: right;
+}
+/*............................. End of Save and Cancel buttons..................*/
+
